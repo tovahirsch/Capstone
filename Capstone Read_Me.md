@@ -1,0 +1,12 @@
+One of the greatest shortcomings of our generation is the inability to ensure clean water for all humans living on this earth. It is the foundation of survival and something every person should have access to. It was with this in mind that I set out to explore this issue in the context of data science. The intention was how beneficial it would be to employ a deep neural network that can identify polluted bodies of water. Regularly accessing images through google earth would be an efficient and cost effective way to monitor water quality improvement or disintegration over time.  The dataset was created by a combination of web scraping coordinates and extracting shape files and then accessing corresponding images through google maps API. It was then reverse geocoded to find the countries for each of the coordinates. The countries were then assigned a Water Quality Index (supplied by http://waterriskfilter.panda.org/en/CountryProfiles#1/profileDescription: A Subindex of the Environmental Performance Index (EPI)). The coordinates (and their corresponding images), countries, and WQI made up the raw data frame for the convolutional neural network. 1300 images were brought in. The data was then split into a training and testing group.  Numerous versions of the CNN were run including utilizing the ImageDataGenerator that shifts, rotates, and transforms a single image in various ways to create several additional images for the model to study. This was especially important for a small database (like this one) to increase the data size. Ultimately the models couldn’t produce conclusive results, perhaps more data was needed for the CNN to learn on or possibly a much higher resolution to catch more nuances.
+
+
+See Technical Report for a walk-through of each file used in this project- Technical Report.ipynb
+1- For Image Retrieval see Image Retrieval Final.ipynb (as well as ne_10m_lakes.xlsx for original spreadsheet)
+2- For all classification models using the dictionary and custom generator see:
+Images_Exploration.ipynb
+Images_Exploration_Model_2.ipynb
+Images_Exploration_Model_2_V2_less_params.ipynb
+Images_Exploration_Model_2-Weights.ipynb
+3- For model using ImageDataGenerator see Images_Exploration_Generator.ipynb
+4- For visual examples of what ImageDataGenerator does, see Images_ImageDataenerator_Preview.ipynb
