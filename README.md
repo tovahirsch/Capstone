@@ -2,7 +2,7 @@
 1. [ Summary ](#summ)
 2. [ Data ](#data)
 3. [ Conclusions ](#conc)
-
+4. [ Concepts & Skills Used ](#skills)
 <a name="summ"></a>
 ## 1. Summary
 
@@ -28,4 +28,12 @@ See [Technical Report](https://github.com/tovahirsch/Capstone/blob/master/Techni
 [Images_Exploration_Model_2-Weights.ipynb](https://github.com/tovahirsch/Capstone/blob/master/Images_Exploration_Model_2_Weights.ipynb)<br/>
 3- For model using [ImageDataGenerator](https://github.com/tovahirsch/Capstone/blob/master/Images_Exploration_Generator.ipynb) see Images_Exploration_Generator.ipynb<br/>
 4- For [visual examples](https://github.com/tovahirsch/Capstone/blob/master/Images_ImageDataenerator_Preview.ipynb) of what ImageDataGenerator does, see Images_ImageDataenerator_Preview.ipynb<br/>
+
+<a name="skills"></a>
+## 4. Concepts & Skills Used
+Python/ Pandas<br/>
+Beautiful soup<br/>
+APIs<br/>
+Convolutional Neural Network<br/>
+Unbalanced Classes/ Weights<br/>
 
