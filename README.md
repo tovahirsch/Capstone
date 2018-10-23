@@ -1,3 +1,4 @@
+# Assessing Pollution in Lakes
 ## Table of Contents
 1. [ Summary ](#summ)
 2. [ Data ](#data)
